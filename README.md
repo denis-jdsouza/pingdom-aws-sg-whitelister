@@ -102,3 +102,6 @@ python pingdom-aws-sg-whitelister.py
 * **Target Port:** The script manages Ingress rules for TCP Port 443 (HTTPS). To change the port, modify the constant AWS_SG_RULE_PORT in the script.
 * **Rule Descriptions:** All rules added by this script are tagged with the description: "Pingdom probe rule added via automation".
 * **AWS Limit:** The script uses a hard limit of 60 rules (AWS_SG_RULE_LIMIT) to prevent hitting the default AWS VPC Security Group rule limit.
+
+## ⚖️ License
+This project is licensed under the [MIT License](LICENSE) - see the file for details.
